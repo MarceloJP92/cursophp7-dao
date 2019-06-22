@@ -21,4 +21,24 @@ echo json_encode($serarch);*/
 $usuario->login("Marcelo_JP","imgty6890");
 echo $usuario;*/
 
+/*
+$aluno =new usuario("Aluno","mJp#4567");
+$aluno->insert();
+echo $aluno;*/
+
+/*
+$usuario=new usuario();
+$usuario->loadById(14);
+$usuario->update("marcelo_jose","67593@#gH");
+echo $usuario;*/
+
+/*
+$usuario=new usuario();
+$usuario->loadById(8);
+$usuario->delete();
+echo $usuario;*/
+
+
+
+
 ?>
